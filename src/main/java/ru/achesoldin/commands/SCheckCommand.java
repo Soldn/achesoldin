@@ -41,7 +41,7 @@ public class SCheckCommand implements CommandExecutor {
         String worldName = Achesoldin.getInstance().getConfig().getString("check-location.world");
         World world = Bukkit.getWorld(worldName);
         if (world == null) {
-            moderator.sendMessage("§cWorld "" + worldName + "" not found.");
+            moderator.sendMessage("§cWorld " + worldName + " not found.");
             return true;
         }
         double x = Achesoldin.getInstance().getConfig().getDouble("check-location.x");
