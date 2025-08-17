@@ -1,0 +1,50 @@
+language: "ru"
+
+check-location:
+  world: world
+  x: 100.0
+  y: 80.0
+  z: 100.0
+  yaw: 0.0
+  pitch: 0.0
+
+timer-seconds: 60
+
+ban-reason: "Автоматическая блокировка sldn"
+ban-command: "ban %player% %reason%"
+
+messages:
+  ru:
+    title: "&cВы вызваны на проверку читов"
+    subtitle: "&7Модератор: %moderator%"
+    chat: "&eУкажите ваш Discord: /sds <ваш дискорд>"
+    released: "&aВы отпущены с проверки!"
+    banned: "&cВы были забанены. Причина: %reason%"
+    auto-ban: "&cИгрок %player% вышел во время проверки и был забанен."
+    only-sds: "&cВо время проверки разрешена только команда /sds!"
+    moderator-received: "&aDiscord игрока %player%: %discord%"
+    player-sent: "&aВаш Discord отправлен модератору."
+    not-on-check: "&cВы не на проверке."
+    player-not-found: "&cИгрок не найден."
+    summoned: "&aИгрок %player% вызван на проверку."
+    already-on-check: "&cИгрок уже находится на проверке."
+    released-by: "&aИгрок %player% отпущен модератором %moderator%."
+    banned-by: "&cИгрок %player% забанен модератором %moderator%. Причина: %reason%"
+    timer: "&eДо конца проверки: %time%с"
+  en:
+    title: "&cYou have been called for a cheat check"
+    subtitle: "&7Moderator: %moderator%"
+    chat: "&ePlease provide your Discord: /sds <your discord>"
+    released: "&aYou have been released from the check!"
+    banned: "&cYou have been banned. Reason: %reason%"
+    auto-ban: "&cPlayer %player% logged out during the check and was banned."
+    only-sds: "&cOnly /sds is allowed during the check!"
+    moderator-received: "&aPlayer %player%'s Discord: %discord%"
+    player-sent: "&aYour Discord was sent to the moderator."
+    not-on-check: "&cYou are not under a check."
+    player-not-found: "&cPlayer not found."
+    summoned: "&aPlayer %player% has been summoned for a check."
+    already-on-check: "&cPlayer is already under a check."
+    released-by: "&aPlayer %player% was released by %moderator%."
+    banned-by: "&cPlayer %player% was banned by %moderator%. Reason: %reason%"
+    timer: "&eTime left: %time%s"

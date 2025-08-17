@@ -1,0 +1,28 @@
+name: Achesoldin
+main: ru.achesoldin.Achesoldin
+version: 1.1.0
+api-version: 1.16
+authors: [ "Achesoldin" ]
+commands:
+  scheck:
+    description: Вызвать игрока на проверку
+    usage: /scheck <ник>
+    permission: achesoldin.scheck
+  srelease:
+    description: Отпустить игрока с проверки
+    usage: /srelease <ник>
+    permission: achesoldin.release
+  sban:
+    description: Забанить игрока
+    usage: /sban <ник> [причина]
+    permission: achesoldin.ban
+  sds:
+    description: Отправить Discord модератору во время проверки
+    usage: /sds <ваш дискорд>
+    permission: achesoldin.sds
+permissions:
+  achesoldin.scheck: { default: op }
+  achesoldin.release: { default: op }
+  achesoldin.ban: { default: op }
+  achesoldin.staff: { default: op }
+  achesoldin.sds: { default: true }
